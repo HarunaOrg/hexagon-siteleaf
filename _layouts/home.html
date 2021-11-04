@@ -9,7 +9,7 @@
       <div class='content'>
         <div class='col1'>
           <h2>Latest News</h2>
-          {% assign sorted = site.latest-news | sort:"Date" | reverse %}
+          {% assign sorted = site.latest-news | sort:"Time" | reverse %}
           {% for newsItem in sorted %}
           <div class='media'>
             <div class='pull-left'>
